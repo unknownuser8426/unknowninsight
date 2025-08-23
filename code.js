@@ -9,7 +9,9 @@ function loadFile(filePath) {
   return result;
 }
 
-console.log(loadFile('./poem.txt'));
+let body = loadFile('./poem.txt');
+
+console.log(body);
 
 
 
